@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<title>小视频</title> 
+	<style>
+	body{
+            background-image: url("image/bgrenwen.jpg");
+            background-repeat:no-repeat;
+            background-size:cover;   
+            background-attachment: fixed;        
+        }
+    
+    ul {
+    		list-style-type: none;
+    		position: fixed;
+    		top: 0;
+    		left: 0;
+    		width: 100%;
+   			margin: 0;
+    		padding: 0;
+    		overflow: hidden;
+    		background-color: #333;
+		}
+    
+	li {
+    		float: left;
+		}
+ 
+	li a {
+   			display: block;
+    		color: white;
+    		text-align: center;
+    	    padding: 14px 16px;
+    		text-decoration: none;
+	    }	
+    li a:hover {
+   			 background-color: #000;
+		}
+	#shipin{
+		position:absolute;
+        top:100px;
+        left:100px;
+        width:100%;
+        
+	}
+    </style>
+
+</head>
+	<body>
+		
+		<!-- 页头部分 -->
+		<div>
+			<!-- 小图标 -->
+			<ul>
+			<li><span class="glyphicons glyphicons-government"><img src="image/changan.png"  width="50px" height="50px"></span></li>
+		    <!-- 三个链接区以及登录链接 -->	
+		    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+			<li><a href="./history.html">闻之美名</a></li>
+			<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+			<li><a href="./scenery.html">见诸美景</a></li>
+			<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+			<li><a href="./celebrity.html">思乎美人</a></li>
+			<li style="float: right"><a href="./log.html">登录/注册</a></li>
+			</ul>
+		</div>
+		
+		<!--主体部分 -->	
+		<div id="shipin"><a href="./history.html">戳这里返回上级页面o(*￣▽￣*)ブ</a></div>
+		<div style="text-align:center;">
+			<video width="800" height="700" controls>
+			<source src="./xianshipin.mp4" type="video/mp4">
+			<source src="movie.ogg"  type="video/ogg">
+  			您的浏览器不支持 HTML5 video 标签。
+			</video>
+		</div>
+		</div>
+
+		<!-- 页尾简介 -->
+		<div>
+			<hr/>
+			<p style="text-align:center">网页设计制作@长安一片月</p>
+		</div>
+
+
+	</body>
+</html>
